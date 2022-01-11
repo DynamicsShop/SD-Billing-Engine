@@ -1,5 +1,239 @@
 ## SD Billing Engine Releases
 
+### 3.4.0
+
+#### Enhancements
+
+- BCv19 App  - The link to the Assisted Setup via GitHub was removed from the Billing Engine Setup. 
+
+- BCv19 App - The D365 BASIC permission set was extended to include SDYUBView permissions. 
+
+- BCv19 App - Changes were made to the text in the Assisted Setup Wizard. 
+
+- BCv19 App - The Latest Version of the product and the AppSource URL were added to the About Page. 
+
+- BCv19 App - Visual changes were made to the request page launched when the Suggest Lines action is chosen. 
+
+- BCv19 App - The Customer Name was added to the Suggest Billing Lines FactBox. 
+
+- BCv19 App - If there is no value in the Posting Description field on the Setup then the Posting Description on the Contract defaults to the Billing Code Description. 
+
+- BCv14 App - Job and Item Category filters were moved from the SD Billing Engine Setup to the Billing Codes. 
+
+- BCv14 App - Versioning of Contracts was added to the BCv14 App. 
+
+- BCv14 App - Visual changes were made to the request page launched when the Suggest Lines action is chosen. 
+
+- BCv14 App - The Customer Name was added to the Suggest Billing Lines FactBox. 
+
+#### Bug Fixes
+
+- BCv19 App - The Job Code specified on the contract lines was not transferred from the contract lines to the suggested billing lines. 
+
+- BCv19 App - The Item Category filter did not work correctly on the Recurring Lines. 
+
+- BCv19 App - Users could not post Sales Invoices without SD Billing Engine Setup permissions. Permission to read Billing Engine Setup was granted to the D365 BUS FULL ACCESS permission set. 
+
+- BCv19 App - Fixed an issue where an error was raised after choosing yes to the Validate Licence prompt. 
+
+- BCv19 App - Contracts could not be Bulk Updated to 'Closed'. 
+
+- BCv19 App - Fixed an issue where Archived contracts could not be reinstated. A new contract is now created based on the details of the Archived contract. 
+
+- BCv19 App - The Assisted Setup Wizard did not populate the Codeunits in the SD Billing Engine Setup card. 
+
+- BCv19 App - The Suggest Billing action did not filter recurring lines by Billing Code. 
+
+- BCv19 App - Fixed an issue with email validation where emails with a full stop failed validation when the Activate Trial action was chosen. 
+
+- BCv19 App -  The Billing Code filter selected from the request page in the Suggest Billing Lines action was not updated on the request page.  
+
+- BCv14 App - The Job Code specified on the contract lines was not transferred from the contract lines to the suggested billing lines. 
+
+- BCv14 App - The Item Category filter did not work correctly on the Recurring Lines.  
+
+- BCv14 App - Users could not post Sales Invoices without SD Billing Engine Setup permissions. Permission to read Billing Engine Setup was granted to the D365 BUS FULL ACCESS permission set. 
+
+- BCv14 App - Fixed an issue where Archived contracts could not be reinstated. A new contract is now created based on the details of the Archived contract. 
+
+- BCv14 App - Contracts could not be Bulk Updated to 'Closed'. 
+
+- BCv14 App - The Suggest Billing action did not filter recurring lines by Billing Code. 
+
+- BCv14 App -  The Billing Code filter selected from the request page in the Suggest Billing Lines action was not updated on the request page.  
+
+### 3.3.0
+
+#### Enhancements
+
+- BCv18 App - Changes were made to the Text Lines that are inserted into the Sales Invoice Lines when the Invoices are generated. 
+
+- BCv18 App - Changes were made to the Suggest Billing Lines request page. The Suggest Billing Date defaults to the workdate. Captions were relabelled. 
+
+- BCv18 App - The auto split functionality was added to the Contract Lines to allow for the Contract Lines to remain in correct order when split. 
+
+- BCv18 App - Functionality was added to the product to allow a snapshot of a Contract to be Archived. A flowfield was added to the Contract Header so users can drill down to view the archives. 
+
+- BCv18 App - Changes were made to the Suggest Billing Lines request page. The Suggest Billing Date defaults to the workdate. Captions were relabelled. 
+
+- BCv18 App - The standard BC action to allow edit in excel was added to the Recurring Contract List. 
+
+- BCv18 App - A new action to Bulk Update Contract Status was added to the Recurring Contract List. 
+
+- BCv18 App - A Line Discount field was added to the Recurring Contract Lines which passes through to the suggested billing lines and to the invoice lines. 
+
+- BCv18 App - When choosing the Product Activation action the user is now prompted that they need to allow HttpClient Requests in Extension Settings. 
+
+- BCv18 App - Contract Versioning functionality was added to the product. New status on the Contract of New, Live or Close. When a Contract is set to a Status of Close, the Contract is moved to an archive table. 
+
+- BCv18 App - Certain cues in the Role Centre were reworked. 
+
+- BCv18 App - The permission to read the SD Billing Engine Setup table was granted to the standard D365 BC Full Access permission set. 
+
+- BCv18 App - The auto split functionality was added to the Contract Lines to allow for the Contract Lines to remain in correct order when split. 
+
+- BCv18 App - When updating from earlier versions of SD Billing Engine the status of any existing Contracts is automatically set to Live. 
+
+- BCv18 App - When the item is chosen on the contract and the Assist Edit on the Unit Prices field is chosen, the best price is added to the Contract Line. 
+
+- BCv18 App - Functionality was added to the product to allow a snapshot of a Contract to be Archived. A flowfield was added to the Contract Header so users can drill down to view the archives. 
+
+- BCv18 App - Additional cues were added to the Role Centre to display Live Contracts and New Contracts. 
+
+- BCv18 App - The value of the Contract is displayed in the Recurring Contract List. 
+
+- BCv18 App - Contract Lines are no longer hardcoded to Items of Type Service. The Billing Code setup can be defined to filter items to a particular type. 
+
+- BCv14 App - A new action to Bulk Update Contract Status was added to the Recurring Contract List. 
+
+- BCv14 App - A Line Discount field was added to the Recurring Contract Lines which passes through to the suggested billing lines and to the invoice lines. 
+
+- BCv14 App - Contract Versioning functionality was added to the product. New status on the Contract of New, Live or Close. When a Contract is set to a Status of Close, the Contract is moved to an archive table. 
+
+- BCv14 App - Certain cues in the Role Centre were reworked. 
+
+- BCv14 App - When updating from earlier versions of SD Billing Engine the status of any existing Contracts is automatically set to Live. 
+
+- BCv14 App - When the item is chosen on the contract and the Assist Edit on the Unit Prices field is chosen, the best price is added to the Contract Line. 
+
+- BCv14 App - Additional cues were added to the Role Centre to display Live Contracts and New Contracts. 
+
+- BCv14 App - When choosing the Product Activation action the user is now prompted that they need to allow HttpClient Requests in Extension Settings. 
+
+- BCv14 App - The value of the Contract is displayed in the Recurring Contract List. 
+
+- BCv14 App - Contract Lines are no longer hardcoded to Items of Type Service. The Billing Code setup can be defined to filter items to a particular type. 
+
+#### Bug Fixes
+
+- BCv18 App - Fixed an issue where the Wizard was not populating the Codeunits on the Assisted Setup.  
+
+- BCv18 App - Fixed an issue with the Line Nos when the Contract Lines are split. 
+
+- BCv18 App - Users cannot post Standard Sales Invoices without SD Billing Engine permissions. 
+
+- BCv18 App - Fixed an error that was raised when text was input on the Contract Line and the Enforce Job Code was switched on in the SD Billing Engine Setup. 
+
+- BCv18 App - When the user hits enter or tab on the Next Invoice Date, the focus now goes to the Next Billing Period field rather than to the Contract Lines. 
+
+- BCv14 App - Fixed an error that was raised when text was input on the Contract Line and the Enforce Job Code was switched on in the SD Billing Engine Setup. 
+
+### 3.2.0
+
+#### Enhancements
+
+- BCv18 App - Add the ability to split Line Nos on the Contract Lines. 
+
+- BCv18 App - Recurring Lines are now ordered by Line No.  
+
+- BCv18 App - Changes were made to Contracts to allow for a new Status option of New, Live or Closed. 
+
+- BCv18 App - Changes were made to the text lines that are automatically inserted onto the Sales Invoice Lines generated by SD Billing Engine. The standard Text is no longer used. Text is now inserted on lines with a Type of blank. 
+
+- BCv18 App - Changes were made to the text lines that are automatically inserted onto the Sales Invoice Lines generated by SD Billing Engine. 
+
+- BCv18 App - Permission to read the SD Billing Engine Setup was added to the standard D365 Fin & Purch and Extension Admin permission sets on install of SD Billing Engine. 
+
+- BCv18 App - When choosing the Product Activation users are now prompted that they need to turn on the Allow HttpClient Requests in the Extension Settings. 
+
+- BCv18 App - The code was reviewed to ensure that the Licence Expiry Date prompt with 5 days to go was not stopping functionality. 
+
+- BCv14 App - Add the ability to split Line Nos on the Contract Lines. 
+
+- BCv14 App - Recurring Lines are now ordered by Line No.  
+
+- BCv14 App - Changes were made to Contracts to allow for a new Status option of New, Live or Closed. 
+
+- BCv14 App - Changes were made to the text lines that are automatically inserted onto the Sales Invoice Lines generated by SD Billing Engine. The standard Text is no longer used. Text is now inserted on lines with a Type of blank. 
+
+- BCv14 App - Changes were made to the text lines that are automatically inserted onto the Sales Invoice Lines generated by SD Billing Engine. 
+
+#### Bug Fixes
+
+- BCv18 App - Fixed an issue where some Contracts were excluded from an Invoice Run due to the Next Invoice Date on the Contract Header being less than or equal to the workdate. 
+
+- BCv18 App - The Unposted Invoices Cue, Posted Invoices Cue, and the Posted Invoices 30 Days Cue were reworked and are now using a boolean on an extension to the Sales Header to determine if the Invoice was created by the SD Billing Engine. 
+
+- BCv14 App - Fixed an issue where some Contracts were excluded from an Invoice Run due to the Next Invoice Date on the Contract Header being less than or equal to the workdate. 
+
+### 3.1.0
+
+#### Enhancements
+
+- BCv18 App - Added a Wizard to automate the SD Billing Engine Setup. 
+
+- BCv18 App - Allow a Currency reset on the Contract Header. 
+
+- BCv18 App - A Boolean flag was added to the Contract lines to indicate at line level whether to enforce zero price. 
+
+- BCv18 App - A change was made to the Recurring Billing Line logic where recurring lines are suggested for Invoicing when the recurring line start date is before the “next invoice billing period end date”. 
+
+- BCv18 App - The Currency Code on the Contract Header is now editable. 
+
+- BCv18 App - Add a third line on the Invoices when generated from SD Billing Engine to display Billing Type:, Billing Code:, Billing Period: and associated values. 
+
+- BCv18 App - Allow lookup to Standard Text Codes on the Contract Lines. 
+
+- BCv18 App - Added a Billing Engine Code Sales Doc Type to allow selection to create either Sales Invoice or Sales Order. 
+
+- BCv18 App - A Default Posting Description was added to the Setup and passes through to the Contract Header where it can be edited.  
+
+- BCv18 App - Certain SD Billing Engine Pages were crated as Web Services. 
+
+- BCv14 App - Added a Wizard to automate the SD Billing Engine Setup. 
+
+- BCv14 App - Allow a Currency reset on the Contract Header. 
+
+- BCv14 App - A Boolean flag was added to the Contract lines to indicate at line level whether to enforce zero price. 
+
+- BCv14 App - A change was made to the Recurring Billing Line logic where recurring lines are suggested for Invoicing when the recurring line start date is before the “next invoice billing period end date”. 
+
+- BCv14 App - The Currency Code on the Contract Header is now editable. 
+
+- BCv14 App - Add a third line on the Invoices when generated from SD Billing Engine to display Billing Type:, Billing Code:, Billing Period: and associated values. 
+
+- BCv14 App - Allow lookup to Standard Text Codes on the Contract Lines. 
+
+- BCv14 App - Added a Billing Engine Code Sales Doc Type to allow selection to create either Sales Invoice or Sales Order. 
+
+- BCv14 App - A Default Posting Description was added to the Setup and passes through to the Contract Header where it can be edited.  
+
+#### Bug Fixes
+
+- BCv18 App - The filter on the Unposted Invoices cue was fixed. 
+
+- BCv18 App - The Currency set on the Contract was not stamped on the Suggest Billing Line. 
+
+- BCv14 App - The filter on the Unposted Invoices cue was fixed. 
+
+- BCv14 App - The Currency set on the Contract was not stamped on the Suggest Billing Line. 
+
+### 3.0.1
+
+#### Enhancements
+
+- BCv17 App - When raising manual invoices for a contract, the next invoice date jumps to the next period if the Your Reference field has been copied from the Billing Engine Invoice using copy document. A change was made that on copy of Billing Engine Invoice to a new document, the Your Reference field is blanked.  
+
 ### 3.0.0
 
 #### Enhancements
