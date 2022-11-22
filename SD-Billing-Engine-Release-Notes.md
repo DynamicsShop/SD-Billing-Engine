@@ -1,5 +1,31 @@
 ## SD Billing Engine Releases
 
+### 3.5.2
+
+#### Enhancements
+
+- BCv14 App - A change was made to the BCv14 App to bring the Payment Method Code and Payment Terms Code from the Contract Header through to the Sales Invoices. 
+
+### 3.5.1
+
+#### Enhancements
+
+- BCv14 App - A new Reset Contract action was added to the Contract Card in the BCv14 code base. Choosing this action archives the Contract, reinstates the new Contract with the same number and allows the user to modify the Next Invoice Date. 
+
+- BCv14 App - A change was made to the BCv14 code base to allow users to edit the Payment Terms on the Contract Header if the status of the Contract Header is New. 
+
+- BCv14 App - A change was made to the BCv14 code base to allow users to edit the Default Payment Method on the Contract Header. 
+
+- BCv14 App - The Contract change at line level item is now shown on the Contract History Detail report in the BCv14 App. 
+
+- BCv14 App - Standard Links, Notes and Attachments were added to the Contract Header in the BCv14 code base. 
+
+### 3.5.0
+
+#### Enhancements
+
+- BCv14 App - KPIs for Monthly Metrics for value and quantity of New Contracts, Lost Contracts, Revenue Increase, and Revenue Decrease were added to the BCv14 code base. 
+
 ### 3.4.0
 
 #### Enhancements
