@@ -1,5 +1,55 @@
 ## SD Billing Engine Releases
 
+### 4.0.0
+
+#### Enhancements
+
+- BCv21 App - Code was added to check if the Contract Tracking table is empty on install or upgrade. If empty, the Contract Tracker table is populated.  
+
+- BCv21 App - KPIs for Monthly Metrics for value and quantity of New Contracts, Lost Contracts, Revenue Increase, and Revenue Decrease were added to the BCv21 code base. 
+
+- BCv21 App - A change was made to bring the Payment Method Code and Payment Terms Code from the Contract Header through to the Sales Invoices. 
+
+- BCv21 App - The Contract change at line level item is now shown on the Contract History Detail report. 
+
+- BCv21 App - A new Reset Contract action was added to the Contract Card. Choosing this action archives the Contract, reinstates the new Contract with the same contract number and allows the user to modify the Next Invoice Date, Billing Code or Currency Code. 
+
+- BCv21 App - A change was made to allow users to edit the Default Payment Method on the Contract Header. 
+
+- BCv21 App - A change was made to allow users to edit the Payment Terms on the Contract Header if the status of the Contract Header is New. 
+
+- BCv21 App - Standard Links, Notes and Attachments were added to the Contract Header. 
+
+- BCv21 App - A field caption was changed on the Setup Card. 
+
+- BCv21 App - A ToolTip was updated on the SD Billing Engine Setup Card. 
+
+- BCv21 App - The values in the Contract Tracking list were formatted to show fixed decimal places. 
+
+- BCv21 App - The Sales Order Activity Panel was removed from the SD Billing Engine Role Centre. The Sales Order Activity Panel can be found by searching the Tell Me. 
+
+- BCv21 App - The Versions field on the Recurring Contract Card was set to display when users choose "Show More" on the General FastTab. 
+
+- BCv21 App - On the Recurring Contract Card, the Invoicing FastTab was moved to display under the General FastTab. 
+
+- BCv21 App - The Billing Code, Customer Name and Status were set to promoted on the General FastTab of the Recurring Contract Card. 
+
+- BCv21 App - The SD Billing Engine Permission Object names were standardised to the same format as that in our other Apps. 
+
+- BCv21 App - The Licence Message displayed on first install of SD Billing Engine was changed to prompt the user to activate a free trial and to choose Assisted Setup from the Setup Card to create demo data. 
+
+- BCv21 App - A page was created to display all the Simply Dynamics Apps and subscription details for the tenant. 
+
+- BCv21 App - The Licence Expiry message/notification was updated to display the App Name. 
+
+- BCv21 App - An alert notification is raised to prompt users that they need to validate the SD Billing Engine licence. 
+
+- BCv21 App - The Product Activation Page was updated to point to the new CRM URL. 
+
+- BCv21 App - The ToolTips were updated to look at our new website. 
+
+- BCv21 App - The links in the About Page were updated to point to new URLs. 
+
 ### 3.5.2
 
 #### Enhancements
