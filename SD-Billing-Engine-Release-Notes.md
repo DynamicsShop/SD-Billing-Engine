@@ -4,51 +4,69 @@
 
 #### Enhancements
 
-- BCv21 App - Code was added to check if the Contract Tracking table is empty on install or upgrade. If empty, the Contract Tracker table is populated.  
+- AppSource App - Code was added to check if the Contract Tracking table is empty on install or upgrade. If empty, the Contract Tracker table is populated.  
 
-- BCv21 App - KPIs for Monthly Metrics for value and quantity of New Contracts, Lost Contracts, Revenue Increase, and Revenue Decrease were added to the BCv21 code base. 
+- AppSource App - KPIs for Monthly Metrics for value and quantity of New Contracts, Lost Contracts, Revenue Increase, and Revenue Decrease were added to the BCv21 code base. 
 
-- BCv21 App - A change was made to bring the Payment Method Code and Payment Terms Code from the Contract Header through to the Sales Invoices. 
+- AppSource App - A change was made to bring the Payment Method Code and Payment Terms Code from the Contract Header through to the Sales Invoices. 
 
-- BCv21 App - The Contract change at line level item is now shown on the Contract History Detail report. 
+- AppSource App - The Contract change at line level item is now shown on the Contract History Detail report. 
 
-- BCv21 App - A new Reset Contract action was added to the Contract Card. Choosing this action archives the Contract, reinstates the new Contract with the same contract number and allows the user to modify the Next Invoice Date, Billing Code or Currency Code. 
+- AppSource App - A new Reset Contract action was added to the Contract Card. Choosing this action archives the Contract, reinstates the new Contract with the same contract number and allows the user to modify the Next Invoice Date, Billing Code or Currency Code. 
 
-- BCv21 App - A change was made to allow users to edit the Default Payment Method on the Contract Header. 
+- AppSource App - A change was made to allow users to edit the Default Payment Method on the Contract Header. 
 
-- BCv21 App - A change was made to allow users to edit the Payment Terms on the Contract Header if the status of the Contract Header is New. 
+- AppSource App - A change was made to allow users to edit the Payment Terms on the Contract Header if the status of the Contract Header is New. 
 
-- BCv21 App - Standard Links, Notes and Attachments were added to the Contract Header. 
+- AppSource App - Standard Links, Notes and Attachments were added to the Contract Header. 
 
-- BCv21 App - A field caption was changed on the Setup Card. 
+- AppSource App - A field caption was changed on the Setup Card. 
 
-- BCv21 App - A ToolTip was updated on the SD Billing Engine Setup Card. 
+- AppSource App - A ToolTip was updated on the SD Billing Engine Setup Card. 
 
-- BCv21 App - The values in the Contract Tracking list were formatted to show fixed decimal places. 
+- AppSource App - The values in the Contract Tracking list were formatted to show fixed decimal places. 
 
-- BCv21 App - The Sales Order Activity Panel was removed from the SD Billing Engine Role Centre. The Sales Order Activity Panel can be found by searching the Tell Me. 
+- AppSource App - The Sales Order Activity Panel was removed from the SD Billing Engine Role Centre. The Sales Order Activity Panel can be found by searching the Tell Me. 
 
-- BCv21 App - The Versions field on the Recurring Contract Card was set to display when users choose "Show More" on the General FastTab. 
+- AppSource App - The Versions field on the Recurring Contract Card was set to display when users choose "Show More" on the General FastTab. 
 
-- BCv21 App - On the Recurring Contract Card, the Invoicing FastTab was moved to display under the General FastTab. 
+- AppSource App - On the Recurring Contract Card, the Invoicing FastTab was moved to display under the General FastTab. 
 
-- BCv21 App - The Billing Code, Customer Name and Status were set to promoted on the General FastTab of the Recurring Contract Card. 
+- AppSource App - The Billing Code, Customer Name and Status were set to promoted on the General FastTab of the Recurring Contract Card. 
 
-- BCv21 App - The SD Billing Engine Permission Object names were standardised to the same format as that in our other Apps. 
+- AppSource App - The SD Billing Engine Permission Object names were standardised to the same format as that in our other Apps. 
 
-- BCv21 App - The Licence Message displayed on first install of SD Billing Engine was changed to prompt the user to activate a free trial and to choose Assisted Setup from the Setup Card to create demo data. 
+- AppSource App - The Licence Message displayed on first install of SD Billing Engine was changed to prompt the user to activate a free trial and to choose Assisted Setup from the Setup Card to create demo data. 
 
-- BCv21 App - A page was created to display all the Simply Dynamics Apps and subscription details for the tenant. 
+- AppSource App - A page was created to display all the Simply Dynamics Apps and subscription details for the tenant. 
 
-- BCv21 App - The Licence Expiry message/notification was updated to display the App Name. 
+- AppSource App - The Licence Expiry message/notification was updated to display the App Name. 
 
-- BCv21 App - An alert notification is raised to prompt users that they need to validate the SD Billing Engine licence. 
+- AppSource App - An alert notification is raised to prompt users that they need to validate the SD Billing Engine licence. 
 
-- BCv21 App - The Product Activation Page was updated to point to the new CRM URL. 
+- AppSource App - The Product Activation Page was updated to point to the new CRM URL. 
 
-- BCv21 App - The ToolTips were updated to look at our new website. 
+- AppSource App - The ToolTips were updated to look at our new website. 
 
-- BCv21 App - The links in the About Page were updated to point to new URLs. 
+- AppSource App - The links in the About Page were updated to point to new URLs. 
+
+- BCv14 App - Changes were made to allow for detailed line level tracking of Contract changes.
+
+- BCv14 App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change.
+
+- BCv14 App - The Change Type on the Contract Header was updated not to display blanks. The Change Type is now always an increase or a decrease.
+
+- BCv14 App - Detailed Contract Tracking entries are created from details in the Contract Versions on upgrade to version 4.0.0 of SD Billing Engine.
+
+- BCv14 App - Tables and pages were created for a Contract Price Adjustment Worksheet, a Pending Price Changes list and a Historic Price Changes list.
+
+- BCv14 App - Functions were created to Get Entries, Suggest Price Change and Apply Price Changes.
+
+- BCv14 App - Three cues were added to the Role Centre for Contact Price Changes, Pending Price Changes and Historic Price Changes.
+
+- BCv14 App - In the Pending Price Changes list a message is displayed to the user when the Process Pending Price Changes action is selected to let the user know that choosing the action will apply all Pending Price changes that have a Take Effect Date less than or equal to the workdate. Otherwise the Pending Price changes will be automatically applied when the user chooses Suggest Lines on the next billing run.
+
+- BCv14 App - Decimal formatting was applied to the Contract Tracker page as per the decimal formatting applied to the Contract Detail Tracker page.
 
 ### 3.5.2
 
