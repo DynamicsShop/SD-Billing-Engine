@@ -1,5 +1,17 @@
 ## SD Billing Engine Releases
 
+### 4.0.1
+
+#### Enhancements
+
+- BCv14 App - A change was made to fix an issue where the Current Month KPIs were not filtering on the Current Month.
+
+- BCv14 App - The KPI groups on the SD Billing Role Centre were cleaned up and rearranged.
+
+- BCv14 App - The SDY UB Contract History Detail report was retired from the product.
+
+- BCv14 App - An Action to Build the Contract Tracker Detail table was surfaced on the SD Billing Engine Setup card. This action will call upgrade code which creates a new version of all Contracts; builds the Contract Tracker Detail table; updates Creation records in Contract Header to increase; updates Removal records in Contract Header to decrease; and sets an Upgrade Boolean field on the Billing Engine Setup table to false.  
+
 ### 4.0.0
 
 #### Enhancements
