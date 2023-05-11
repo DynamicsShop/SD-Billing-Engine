@@ -1,7 +1,5 @@
 ## SD Billing Engine Releases
 
-## SD Billing Engine Releases
-
 ### 5.0.0
 
 #### Enhancements
