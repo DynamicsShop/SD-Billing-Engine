@@ -1,5 +1,57 @@
 ## SD Billing Engine Releases
 
+## SD Billing Engine Releases
+
+### 5.0.0
+
+#### Enhancements
+
+- AppSource App - Tables and pages were created for a Contract Price Adjustment Worksheet, a Pending Price Changes list and a Historic Price Changes list. 
+
+- AppSource App - Functions were created to Get Entries, Suggest Price Change and Apply Price Changes. 
+
+- AppSource App - In the Pending Price Changes list a message is displayed to the user when the Process Pending Price Changes action is selected to let the user know that choosing the action will apply all Pending Price changes that have a Take Effect Date less than or equal to the workdate. Otherwise the Pending Price changes will be automatically applied when the user chooses Suggest Lines on the next billing run. 
+
+- AppSource App - Changes were made to allow for detailed line level tracking of Contract changes. 
+
+- AppSource App - An Action to Build the Contract Tracker Detail table was surfaced on the SD Billing Engine Setup card. This action will call upgrade code which creates a new version of all Contracts; builds the Contract Tracker Detail table; updates Creation records in Contract Header to increase; updates Removal records in Contract Header to decrease; and sets an Upgrade Boolean field on the Billing Engine Setup table to false.  
+
+- AppSource App - A change was made to allow users to view the versions of a closed contract from the Recurring Archive Card. 
+
+- AppSource App - The Contract History Detail Report action was removed from the Recurring Archive Card. 
+
+- AppSource App - A change was made to include closed contracts when creating the initial build of contract tracker detail records based on data in the contract tracker summary. 
+
+- AppSource App - An Action was surfaced on the Contract Tracker Summary page to allow drilldown to the Contract Tracker Detail page. 
+
+- AppSource App - Changes were made to the Header and Detail Tracker pages. The Date field was renamed to Change Date and moved to the right of the Entry No. field. 
+
+- AppSource App - The SDY UB Contract History Detail report was retired from the product. 
+
+- AppSource App - The KPI groups on the SD Billing Role Centre were cleaned up and rearranged. 
+
+- AppSource App - Decimal formatting was applied to the Contract Tracker page as per the decimal formatting applied to the Contract Detail Tracker page. 
+
+- AppSource App - Three cues were added to the Role Centre for Contact Price Changes, Pending Price Changes and Historic Price Changes. 
+
+- AppSource App -  Detailed Contract Tracking entries are created from details in the Contract Versions on upgrade to version 4.0.0 of SD Billing Engine. 
+
+- AppSource App - The Change Type on the Contract Header was updated not to display blanks. The Change Type is now always an increase or a decrease. 
+
+- AppSource App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change. 
+
+#### Bug Fixes
+
+- AppSource App - Pending Price changes that had a Take Effect Date less than or equal to the workdate were not automatically applied when Suggest Lines on the next billing run was chosen. 
+
+- AppSource App - Fixed an issue where a new contract created as version 1 had no quantity on the lines, the contract was then modified to have a line quantity. The Contract Tracker functionality created a summary contract tracking header but detail lines were not created for the new version. 
+
+- AppSource App - Summary and Detail Tracker KPIs did not match where Contracts that were created and then closed straight away were not included in the initial build of the Contract Tracker Detail. This was fixed. 
+
+- AppSource App - A change was made to fix an issue where the Current Month KPIs were not filtering on the Current Month. 
+
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language. 
+
 ### 4.0.2
 
 #### Enhancements
