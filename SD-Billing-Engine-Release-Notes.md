@@ -54,19 +54,19 @@
 
 #### Enhancements
 
-BCv14 App - A change was made to include closed contracts when creating the initial build of contract tracker detail records based on data in the contract tracker summary.
+- BCv14 App - A change was made to include closed contracts when creating the initial build of contract tracker detail records based on data in the contract tracker summary.
 
-BCv14 App - Changes were made to the Header and Detail Tracker pages. The Date field was renamed to Change Date and moved to the right of the Entry No. field.
+- BCv14 App - Changes were made to the Header and Detail Tracker pages. The Date field was renamed to Change Date and moved to the right of the Entry No. field.
 
-BCv14 App - An Action was surfaced on the Contract Tracker Summary page to allow drilldown to the Contract Tracker Detail page.
+- BCv14 App - An Action was surfaced on the Contract Tracker Summary page to allow drilldown to the Contract Tracker Detail page.
 
-BCv14 App - The Contract History Detail Report action was removed from the Recurring Archive Card.
+- BCv14 App - The Contract History Detail Report action was removed from the Recurring Archive Card.
 
-BCv14 App - A change was made to allow users to view the versions of a closed contract from the Recurring Archive Card.
+- BCv14 App - A change was made to allow users to view the versions of a closed contract from the Recurring Archive Card.
 
 #### Bug Fixes
 
-BCv14 App - Summary and Detail Tracker KPIs did not match where Contracts that were created and then closed straight away were not included in the initial build of the Contract Tracker Detail. This was fixed.
+- BCv14 App - Summary and Detail Tracker KPIs did not match where Contracts that were created and then closed straight away were not included in the initial build of the Contract Tracker Detail. This was fixed.
 
 ### 4.0.1
 
