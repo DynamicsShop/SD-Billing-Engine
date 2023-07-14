@@ -48,7 +48,23 @@
 
 - AppSource App - A change was made to fix an issue where the Current Month KPIs were not filtering on the Current Month. 
 
-- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language. 
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language.
+
+- BCv14 App - If there are existing lines in the Contract Price Adjustment Worksheet and the Get Contract Price Lines action is selected then prompt the user that existing lines will be cleared.
+
+- BCv14 App - In the Contract Price Adjustment Worksheet allow a drill through from the Item No to the Item Card.
+
+- BCv14 App - A filter on the Currency was added when choosing Suggest Price Changes for a Change Type of Price Book.
+
+- BCv14 App - An option on the Suggest Price Change was added to keep the current discount or set the discount to 0.
+
+- BCv14 App - In the Contract Price Worksheet the Take Effect Date is now based on the Billing Period Range and not the Billing Date.
+
+- BCv14 App - Changes were made to the Pending Price Lines to add a FactBox with count of lines and a sum of the quantity.
+
+#### Bug Fixes
+
+- BCv14 App - When selecting a different Change Type on the Suggest Price Change page the correct options were not always showing. This was fixed.
 
 ### 4.0.2
 
