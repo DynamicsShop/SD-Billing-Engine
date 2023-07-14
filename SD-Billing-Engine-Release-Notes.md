@@ -36,7 +36,19 @@
 
 - AppSource App - The Change Type on the Contract Header was updated not to display blanks. The Change Type is now always an increase or a decrease. 
 
-- AppSource App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change. 
+- AppSource App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change.
+
+- AppSource App - If there are existing lines in the Contract Price Adjustment Worksheet and the Get Contract Price Lines action is selected then prompt the user that existing lines will be cleared.
+
+- AppSource App - In the Contract Price Adjustment Worksheet allow a drill through from the Item No to the Item Card.
+
+- AppSource App - A filter on the Currency was added when choosing Suggest Price Changes for a Change Type of Price Book.
+
+- AppSource App - An option on the Suggest Price Change was added to keep the current discount or set the discount to 0.
+
+- AppSource App - In the Contract Price Worksheet the Take Effect Date is now based on the Billing Period Range and not the Billing Date.
+
+- AppSource App - Changes were made to the Pending Price Lines to add a FactBox with count of lines and a sum of the quantity.
 
 #### Bug Fixes
 
