@@ -8,11 +8,31 @@
 
 - AppSource App - Functions were created to Get Entries, Suggest Price Change and Apply Price Changes. 
 
-- AppSource App - In the Pending Price Changes list a message is displayed to the user when the Process Pending Price Changes action is selected to let the user know that choosing the action will apply all Pending Price changes that have a Take Effect Date less than or equal to the workdate. Otherwise the Pending Price changes will be automatically applied when the user chooses Suggest Lines on the next billing run. 
-
 - AppSource App - Changes were made to allow for detailed line level tracking of Contract changes. 
 
-- AppSource App - An Action to Build the Contract Tracker Detail table was surfaced on the SD Billing Engine Setup card. This action will call upgrade code which creates a new version of all Contracts; builds the Contract Tracker Detail table; updates Creation records in Contract Header to increase; updates Removal records in Contract Header to decrease; and sets an Upgrade Boolean field on the Billing Engine Setup table to false.  
+- AppSource App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change. 
+
+- AppSource App - The Change Type on the Contract Header was updated not to display blanks. The Change Type is now always an increase or a decrease. 
+
+- AppSource App -  Detailed Contract Tracking entries are created from details in the Contract Versions on upgrade to version 4.0.0 of SD Billing Engine. 
+
+- AppSource App - Three cues were added to the Role Centre for Contact Price Changes, Pending Price Changes and Historic Price Changes. 
+
+- AppSource App - Changes were made to the Pending Price Lines to add a FactBox with count of lines and a sum of the quantity. 
+
+- AppSource App - In the Pending Price Changes list a message is displayed to the user when the Process Pending Price Changes action is selected to let the user know that choosing the action will apply all Pending Price changes that have a Take Effect Date less than or equal to the workdate. Otherwise the Pending Price changes will be automatically applied when the user chooses Suggest Lines on the next billing run. 
+
+- AppSource App - In the Contract Price Worksheet the Take Effect Date is now based on the Billing Period Range and not the Billing Date.  The Process Pending Price Changes action was removed. The Pending Price changes are automatically applied when the user chooses Suggest Lines on the next billing run if the take effect date is within the Billing Period Range. 
+
+- AppSource App - An option on the Suggest Price Change was added to keep the current discount or set the discount to 0. 
+
+- AppSource App - A filter on the Currency was added when choosing Suggest Price Changes for a Change Type of Price Book. 
+
+- AppSource App - In the Contract Price Adjustment Worksheet allow a drill through from the Item No to the Item Card. 
+
+- AppSource App - If there are existing lines in the Contract Price Adjustment Worksheet and the Get Contract Price Lines action is selected then prompt the user that existing lines will be cleared. 
+
+- AppSource App - A change was made to limit the SD ISV Tenant Subscriptions page to display just our SD ISV AppSource Apps and not other SD PTE Apps. 
 
 - AppSource App - A change was made to allow users to view the versions of a closed contract from the Recurring Archive Card. 
 
@@ -26,31 +46,15 @@
 
 - AppSource App - The SDY UB Contract History Detail report was retired from the product. 
 
+- AppSource App - An Action to Build the Contract Tracker Detail table was surfaced on the SD Billing Engine Setup card. This action will call upgrade code which creates a new version of all Contracts; builds the Contract Tracker Detail table; updates Creation records in Contract Header to increase; updates Removal records in Contract Header to decrease; and sets an Upgrade Boolean field on the Billing Engine Setup table to false.   
+
 - AppSource App - The KPI groups on the SD Billing Role Centre were cleaned up and rearranged. 
 
 - AppSource App - Decimal formatting was applied to the Contract Tracker page as per the decimal formatting applied to the Contract Detail Tracker page. 
 
-- AppSource App - Three cues were added to the Role Centre for Contact Price Changes, Pending Price Changes and Historic Price Changes. 
-
-- AppSource App -  Detailed Contract Tracking entries are created from details in the Contract Versions on upgrade to version 4.0.0 of SD Billing Engine. 
-
-- AppSource App - The Change Type on the Contract Header was updated not to display blanks. The Change Type is now always an increase or a decrease. 
-
-- AppSource App - The Entry Type on Contract Tracking specifies if there was a quantity change or a price change.
-
-- AppSource App - If there are existing lines in the Contract Price Adjustment Worksheet and the Get Contract Price Lines action is selected then prompt the user that existing lines will be cleared.
-
-- AppSource App - In the Contract Price Adjustment Worksheet allow a drill through from the Item No to the Item Card.
-
-- AppSource App - A filter on the Currency was added when choosing Suggest Price Changes for a Change Type of Price Book.
-
-- AppSource App - An option on the Suggest Price Change was added to keep the current discount or set the discount to 0.
-
-- AppSource App - In the Contract Price Worksheet the Take Effect Date is now based on the Billing Period Range and not the Billing Date.
-
-- AppSource App - Changes were made to the Pending Price Lines to add a FactBox with count of lines and a sum of the quantity.
-
 #### Bug Fixes
+
+- AppSource App - When selecting SD Billing Engine activity pages in the Tell Me/Search in a BCv22 environment, the activity pages were hanging. 
 
 - AppSource App - Pending Price changes that had a Take Effect Date less than or equal to the workdate were not automatically applied when Suggest Lines on the next billing run was chosen. 
 
@@ -60,7 +64,9 @@
 
 - AppSource App - A change was made to fix an issue where the Current Month KPIs were not filtering on the Current Month. 
 
-- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language.
+- AppSource App - An error was raised in the Assisted Setup import if non sequential enum values exist in the imported data. This was fixed. 
+
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language. 
 
 ### 4.1.0
 
