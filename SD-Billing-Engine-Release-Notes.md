@@ -62,6 +62,10 @@
 
 - AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language.
 
+### 4.1.0
+
+#### Enhancements
+
 - BCv14 App - If there are existing lines in the Contract Price Adjustment Worksheet and the Get Contract Price Lines action is selected then prompt the user that existing lines will be cleared.
 
 - BCv14 App - In the Contract Price Adjustment Worksheet allow a drill through from the Item No to the Item Card.
