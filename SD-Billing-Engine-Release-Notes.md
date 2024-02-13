@@ -66,7 +66,17 @@
 
 - AppSource App - An error was raised in the Assisted Setup import if non sequential enum values exist in the imported data. This was fixed. 
 
-- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language. 
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Billing Engine to fix an issue that would raise an error when the language is changed from English to another language.
+
+### 4.1.1
+
+#### Enhancements
+
+- BCv14 App - The Contract Billing Period is stamped as text on the Posted Sales Invoice Line. This value is now also stamped to a new field on the Posted Sales Invoice Header.
+
+#### Bug Fixes
+
+- BCv14 App - When renumbering a Billing Engine Contract the Contract Lines, Archived Records and Price Change Lines were missing a table relation and were not renumbering correctly. This was fixed.
 
 ### 4.1.0
 
