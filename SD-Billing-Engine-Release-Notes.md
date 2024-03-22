@@ -1,5 +1,15 @@
 ## SD Billing Engine Releases
 
+### 5.0.1
+
+#### Enhancements
+
+- AppSource App - The Contract Billing Period is stamped as text on the Posted Sales Invoice Line. This value is now also stamped to a new field on the Posted Sales Invoice Header.
+
+- AppSource App - The logo in App was updated to the new logo.
+
+- AppSource App - The links in the About page were updated.
+
 ### 5.0.0
 
 #### Enhancements
