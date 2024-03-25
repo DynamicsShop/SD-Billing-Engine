@@ -9,6 +9,8 @@
 - AppSource App - The logo in App was updated to the new logo.
 
 - AppSource App - The links in the About page were updated.
+  
+- AppSource App - The Power BI Report FactBox was removed from the Role Centre.
 
 ### 5.0.0
 
