@@ -1,5 +1,119 @@
 ## SD Billing Engine Releases
 
+### 6.0.0
+
+#### Enhancements
+
+- AppSource App - Create functionality to allow users to create Activity Contracts that will be used for activity based billing invoiced from imported event based metrics.
+
+- AppSource App - A new Billing Engine Meter Read Activity table together with associated funtionality was created to allow for activity based billing based on meter reads. 
+
+- AppSource App - A new Billing Engine Meter Read Archive table together with associated functionality was created. 
+
+- AppSource App - Create a new table for Meter Prices to hold the different prices. Prices will be setup per customer, per meter type, and have a start and end date. 
+
+- AppSource App - Functionality was created to allow for situations where the one fixed asset on an Activity Contract could have multiple different types of meter reads. Each different meter read type will appear as a different line on the activity lines and on the sales invoice. 
+
+- AppSource App - Functionality was added to pick up a minimum charge for certain types meter reads. 
+
+- AppSource App - In order to track Contracts costs and profitability, functionality was developed to link Contracts to Jobs. Users can now post costs against the Job as per standard. When an Invoice created by SD Billing Engine is posted the contract revenues are posted to the Job Ledger. 
+
+- AppSource App - If a Recurring Contract or an Activity Contract has a Billing Code that specifies a link to a Job, a Job Template with Task Lines is auto created and linked to the Contract.  
+
+- AppSource App - A link has been added at Contract Line level to hold a Fixed Asset and Serial Number for the Fixed Asset. For Activity Billing the metrics can feed into the system based on a device serial number. 
+
+- AppSource App - Functionality regarding installation and deinstallation of a Fixed Asset on a Contract was reworked and refined.
+
+- AppSource App - A change was made to filter installing an Asset on a Contract by Contract Type as an Asset can be installed on a Recurring Contract to bill the lease and on an Activity Contract to bill the usage. 
+
+- AppSource App - Changes were made to SD Billing Engine to remove the Activity Elements Get Entries Handler from the SD Billing Engine Setup card and to place the Get Entries Handler on the Activity Billing Codes.
+
+- AppSource App - Changes were made in the SD Billing Engine Setup card to rename the Recurring Elements Setup FastTab to Contract Setup and remove some fields.
+
+- AppSource App - An action to the Fixed Assets List was added to the SD Billing Engine Setup Card. 
+
+- AppSource App - The Contracts drilldown on the Setup Card was recaptioned to Recurring Contracts and a drill down to Activity Contracts was surfaced. 
+
+- AppSource App - A boolean option was added to the SD Billing Engine Setup card to hide the meter read comments on the generated Sales Invoice. 
+
+- AppSource App - A change was made to allow users to hide the Billing Type, Billing Code and/or the Billing Period comments on the generated Sales Invoice. 
+
+- AppSource App - In the SD Billing Engine Job Template Card the link with the Billing Code was removed. 
+
+- AppSource App - Rename the Recurring Lines FastTab in the Contract Card to Contract Lines FastTab. 
+
+- AppSource App - Fields in the General FastTab on the Recurring Contract Card and the Activity Contract Card were rearranged.
+
+- AppSource App - A change was made to the meter read table to allow decimal meter reads. 
+
+- AppSource App - A separate page was created for the Activity Contract Lines and the Recurring Contract Lines. 
+
+- AppSource App - A change was made to handle the import of Assisted Data Setup to handle future requests to allow for demo data to be imported from a file. 
+
+- AppSource App - The text inserted onto the invoices for meter reads was updated. 
+
+- BCv14 App - The Contract Billing Period is stamped as text on the Posted Sales Invoice Line. This value is now also stamped to a new field on the Posted Sales Invoice Header. 
+
+- AppSource App - A change was made to stamp the Job Ledger Entry Date with the invoice posting date instead of stamping with the work date. 
+
+- AppSource App - Upgrade code was added to upgrade existing versions of Billing Engine v5.0.0 Contracts to the new Contract table structures in v6.0.0. 
+
+- AppSource App - A change was made so that Meter Reads with a Meter Read Date after the Contract's Billing Period shouldn't be brought in to the Suggested Billing Lines. 
+
+- AppSource App - The instructional text in the Uninstall Asset Wizard was updated. 
+
+- AppSource App - A change was made to pass the Fixed Asset No. and Serial No. from the Contract Lines to the Sales Invoices and to the Job Ledger Entries. 
+
+- AppSource App - Job KPI fields were added to the to Contract Detail FactBox. 
+
+- AppSource App - The Quantity and Values posted to the Job Ledger Entry on posting an invoice for a Contract linked to a Job should be negative. 
+
+- AppSource App - A change was made to post the Job Ledger Entry with the Invoice Document No.  
+
+- AppSource App - New fields, Recurring Contract No. and Activity Contract No., were added on the extended Fixed Asset list.  
+
+- AppSource App - In the Fixed Asset list the drill down on the Contract No. was showing two Contract Lines as being on the same Contract but this was incorrect. One Contract was Recurring and the other was Activity. The Contract No. field was split out to show Recurring and Activity Contracts. 
+
+- AppSource App - In the Billing Codes FactBox the Recurring Contracts caption was updated to Contracts. 
+
+- AppSource App - The Contract List action on the Fixed Assets list and Fixed Assets card was only showing Recurring Contracts. This was changed to also show Activity Contracts. 
+
+- AppSource App - A change was made when the Activity Line is validated in the Activity Lines list to transfer the Source Activity Date to the Activity Date field.
+
+- AppSource App - Column headings on the Activity Lines list were updated. 
+
+- AppSource App - If lines for the same serial no. but different meter read types exist in the Meter Read Activity we need to bring in the lines by meter read type into the Activity Lines list. 
+
+- AppSource App - FlowFields were surfaced on the Contract FactBox to show pending and archived/applied price changes. 
+
+- AppSource App - In the Contract Price Worksheet a caption was added to the Set Take Effect Date action that the Take Effect Date is based on the Billing Period Range and not the Billing Date. The ToolTip for the Set Take Effect Date action was also updated. 
+
+- AppSource App - The captions of the Suggest Lines request pages were updated. 
+
+- AppSource App - The Get Entries Handler column in the Billing Element Codes list was set to non-editable for Recurring and Manual Billing Types.  
+
+- AppSource App - A freeze frame was added after the Billing Code on the Billing Element Code list. 
+
+- AppSource App - Some minor changes were made to the Billing Element Codes list. 
+
+- AppSource App - The FlowField count of the Prices field in the Meter Types list was set to recalculate when a new Price for the Meter Type is created in the Meter Type Prices list. 
+
+- AppSource App - An action name in the SD Billing Engine Setup Card was changed and actions were rearranged. 
+
+- AppSource App - Updates were made to ToolTips in the SD Billing Engine Setup Card. 
+
+- AppSource App - Updates were made to the text displayed in the Assisted Setup Wizard. 
+
+- AppSource App - The instructional text in the Install Asset Wizard was updated. 
+
+- AppSource App - The logo in the App was updated to our new logo. 
+
+- AppSource App - The Links in the About Page were updated.   
+
+#### Bug Fixes
+
+- AppSource App - Renumbering a Billing Engine Contract did not renumber the contract lines nor the contract version history.  
+
 ### 5.0.1
 
 #### Enhancements
