@@ -6,7 +6,7 @@
 
 - AppSource App - Create functionality to allow users to create Activity Contracts that will be used for activity based billing invoiced from imported event based metrics.
 
-- AppSource App - A new Billing Engine Meter Read Activity table together with associated funtionality was created to allow for activity based billing based on meter reads. 
+- AppSource App - A new Billing Engine Meter Read Activity table together with associated functionality was created to allow for activity based billing based on meter reads. 
 
 - AppSource App - A new Billing Engine Meter Read Archive table together with associated functionality was created. 
 
