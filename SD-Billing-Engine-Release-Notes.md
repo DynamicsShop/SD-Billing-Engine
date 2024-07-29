@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 6.0.1
+
+#### Bug Fixes
+
+- AppSource App - If the Sales Invoices and Posted Sales Invoices were using the same number series, the contract was not updated when the invoice was posted. This was fixed.
+
 ### 6.0.0
 
 #### Enhancements
