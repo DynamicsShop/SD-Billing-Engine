@@ -1,5 +1,59 @@
 ## SD Billing Engine Releases
 
+### 7.0.0
+
+#### Enhancements
+ 
+- AppSource App - Pro Rata Billing functionality was added.
+
+- AppSource App - Incremental Billing functionality was added.
+
+- AppSource App - The create invoices functionality was reworked. The Create Orders Handler and the Create Invoice Handler were set as obsolete and are replaced by a Sales Doc Generation Enum/Interface.
+
+- AppSource App - The Get Entries functionality was reworked.
+
+- AppSource App - A new codeunit Suggest Act. Contracts v2 was created to handle where meter reads are additive and no estimation is required.
+
+- AppSource App - Dimensions were implemented on the Contract Header. Dimensions added to the Contract are stamped on the suggested invoices.
+
+- AppSource App - Contract Dimensions and Billing Engine Setup Dimensions are included in the recalc dimension routine.
+
+- AppSource App - A change was made to pass the option on the Customer Card "Price includes VAT" through to the created invoice.
+
+- AppSource App - An event was added to codeunit 43006464 "SDY UB Suggest Act. Contracts" to allow for modification of billing lines for Activity Contracts.
+
+- AppSource App - A new codeunit Suggest Act. Contracts v2 was created to handle where meter reads are additive and no estimation is required.
+
+- AppSource App - Codeunits 43006440 "SDY UB Billing Wrapper", 43006441 "SDY UB Billing Recurring Items", 43006442 "SDY UB Billing Activity Items", and 43006443 "SDY UB Billing Manual Items" were marked as obsolete and an error is now thrown when the billing routine is run if these codeunits are defined on the setup.
+
+- AppSource App - A change was made to handle the scenario where assets have been uninstalled from a contract prior to the invoice run.
+
+- AppSource App - The Copy Fixed Asset action no longer copies the contract no from the previous asset to the new asset.
+
+- AppSource App - The Validate All and Validate Selected actions now validate by activity date rather than workdate to find the correct contract. 
+
+- AppSource App - The Contract List was changed to allow filtering by Billing Type.
+
+- AppSource App - The count of Contracts on the Billing Code FactBox was split out to a separate count for Activity Contracts and a separate count for Recurring Contracts.
+
+- AppSource App - A change was made to auto select the default billing item when installing assets. 
+
+- AppSource App - A change was made to prevent users from deleting a billing code if it exists on a contract.
+
+- AppSource App - All Billing Engine pages were reviewed and UI changes, tooltip and caption updates were made.
+
+- AppSource App - Additional phrases were added as search phrases for the SD  Billing Engine pages.
+
+- AppSource App - Enhancements were made to the App Request Subscription page.
+
+- AppSource App - A change was made to the licence expiry notification. The logic for checking for expiry dates was reworked.
+
+- AppSource App - The status field was added to the Contract API.
+
+- AppSource App - Changes were made to the Assisted Setup Wizard.
+
+- AppSource App - The Billing Type Option Field was replaced by Billing Method Enum.
+
 ### 6.0.1
 
 #### Bug Fixes
