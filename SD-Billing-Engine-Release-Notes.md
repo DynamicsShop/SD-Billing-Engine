@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 7.0.1
+
+#### Bug Fixes
+
+- AppSource App - The new sales doc generator interface, which replaced the create invoices codeunit, was pulling the description from the item rather than from the contract line. 
+
 ### 7.0.0
 
 #### Enhancements
