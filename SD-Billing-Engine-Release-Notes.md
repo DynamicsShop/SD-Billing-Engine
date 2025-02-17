@@ -118,7 +118,7 @@
 
 - AppSource App - The text inserted onto the invoices for meter reads was updated. 
 
-- BCv14 App - The Contract Billing Period is stamped as text on the Posted Sales Invoice Line. This value is now also stamped to a new field on the Posted Sales Invoice Header. 
+- AppSource App - The Contract Billing Period is stamped as text on the Posted Sales Invoice Line. This value is now also stamped to a new field on the Posted Sales Invoice Header. 
 
 - AppSource App - A change was made to stamp the Job Ledger Entry Date with the invoice posting date instead of stamping with the work date. 
 
