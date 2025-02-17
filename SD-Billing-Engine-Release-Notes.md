@@ -1,5 +1,13 @@
 ## SD Billing Engine Releases
 
+### 7.0.2
+
+#### Enhancements
+
+- AppSource App - Allow users to select number series with relationships on the Contract Cards.
+
+- AppSource App - The table relation between the Project Code and the Customer on the Recurring Line was modified.
+
 ### 7.0.1
 
 #### Bug Fixes
