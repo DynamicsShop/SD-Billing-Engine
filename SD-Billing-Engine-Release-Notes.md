@@ -8,7 +8,7 @@
 
 - AppSource App - The table relation between the Project Code and the Customer on the Recurring Line was modified.
 
-- AppSource App - Created a new Contract Lookup to display Activity and Recurring Contracts.
+- AppSource App - Created a new Contract List to display Activity and Recurring Contracts.
 
 ### 7.0.1
 
