@@ -1,5 +1,13 @@
 ## SD Billing Engine Releases
 
+### 7.0.3
+
+#### Enhancements
+
+- AppSource App - An API page was created for SDY UB Asset History (43006463).
+
+- AppSource App - Allow for drill down on Asset History in Live Contract Lines. 
+
 ### 7.0.2
 
 #### Enhancements
