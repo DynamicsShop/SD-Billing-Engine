@@ -1,5 +1,13 @@
 ## SD Billing Engine Releases
 
+### 7.0.4
+
+#### Enhancements
+
+AppSource App - A minor mod was made to the SD Billing Engine Generate Sales Order routine.
+
+AppSource App - The Meter Type Prices, Activity List and Suggested Billing Lines List were updated to allow for 5 decimal places for the Unit Price.
+
 ### 7.0.3
 
 #### Enhancements
