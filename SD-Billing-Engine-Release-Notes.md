@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 7.1.1
+
+#### Enhancements
+
+- AppSource App - A change was made to allow for Renumbering of Contracts. A composite key on the price change history table was updated.
+
 ### 7.1.0
 
 #### Enhancements
