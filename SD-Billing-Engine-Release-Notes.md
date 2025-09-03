@@ -34,9 +34,9 @@
 
 #### Enhancements
 
-AppSource App - A minor mod was made to the SD Billing Engine Generate Sales Order routine.
+- AppSource App - A minor mod was made to the SD Billing Engine Generate Sales Order routine.
 
-AppSource App - The Meter Type Prices, Activity List and Suggested Billing Lines List were updated to allow for 5 decimal places for the Unit Price.
+- AppSource App - The Meter Type Prices, Activity List and Suggested Billing Lines List were updated to allow for 5 decimal places for the Unit Price.
 
 ### 7.0.3
 
@@ -1123,5 +1123,6 @@ AppSource App - The Meter Type Prices, Activity List and Suggested Billing Lines
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
