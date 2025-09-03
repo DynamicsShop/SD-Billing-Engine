@@ -1,5 +1,13 @@
 ## SD Billing Engine Releases
 
+### 7.1.2
+
+#### Enhancements
+
+- AppSource App - A change was made to check for Unposted Invoices before running the Suggest Lines. A prompt is raised if Unposted Invoices exist and the Unposted Invoices and Unposted Orders cues in the Role Centre are highlighted in red if unposted transactions exist. 
+
+- AppSource App - A link to the user guide on the DynamicsShop page was added to the About page and to the Manage Subscriptions page.
+
 ### 7.1.1
 
 #### Enhancements
@@ -1115,4 +1123,5 @@ AppSource App - The Meter Type Prices, Activity List and Suggested Billing Lines
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
