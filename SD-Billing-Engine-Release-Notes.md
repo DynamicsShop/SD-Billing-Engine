@@ -1,5 +1,15 @@
 ## SD Billing Engine Releases
 
+### 7.1.3
+
+#### Enhancements
+
+- AppSource App - Changes were made to meter read archiving for suggested billing lines created by suggest handler "SDY UB Suggest Act. Contr. v2". The meter read change is now stamped on the Meter Read Archive table.
+
+- AppSource App - An "Up To Date" filter was added to the "SDY UB Meter Read Get Entries" CodeUnit.
+
+- AppSource App - The Entry No. from the Meter Read Activity is now stamped on the Meter Read Archive.
+
 ### 7.1.2
 
 #### Enhancements
@@ -1123,6 +1133,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
