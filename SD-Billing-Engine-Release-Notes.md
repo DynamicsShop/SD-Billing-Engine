@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 7.1.4
+
+#### Enhancements
+
+- AppSource App - A parameter was added to an event in the Sales Document Implementation Codeunit.
+
 ### 7.1.3
 
 #### Enhancements
@@ -1133,6 +1139,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
