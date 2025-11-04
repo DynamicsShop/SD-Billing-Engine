@@ -1,5 +1,15 @@
 ## SD Billing Engine Releases
 
+### 7.1.5
+
+#### Enhancements
+
+- AppSource App - The notification prompting users to activate a free trial of SD Billing Engine on a fresh install has been limited to display no more than once per hour on the standard Business Central role centres.
+
+#### Bug Fixes
+
+- AppSource App - Fixed an issue where the Posting Description set on the Contract Header was not pulling through to the Invoices and the standard Business Central posting Description of Invoice and Invoice Number was being incorrectly being applied.
+
 ### 7.1.4
 
 #### Enhancements
@@ -1139,6 +1149,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
