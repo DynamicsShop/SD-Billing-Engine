@@ -1,11 +1,5 @@
 ## SD Billing Engine Releases
 
-### 7.1.6
-
-#### Bug Fixes
-
-- AppSource App - A fix was made to the Sales Header Document No and Invoice No stamping logic for activity and manual lines. The stamping logic was enhanced and clean up routines to handle deletion of a generated invoice (posted or unposted) created from activity lines was reworked.
-  
 ### 7.1.5
 
 #### Enhancements
@@ -1155,6 +1149,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
