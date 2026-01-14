@@ -1,5 +1,23 @@
 ## SD Billing Engine Releases
 
+### 7.1.6
+
+#### Enhancements
+
+- AppSource App - If the new sales pricing experience is enabled, the Contract Line Unit Price is now selected from the new sales pricing experience tables.
+
+- AppSource App - If the new sales pricing experience is enabled, the Unit Price is now selected from the new sales pricing experience tables for contract lines with a zero unit price when the Suggest Lines action is chosen from the Suggested Billing Lines.
+
+- AppSource App - If the new sales pricing experience is enabled, the New Unit Price is now selected from the new sales pricing experience tables when the Suggest Price Change action on the Contract Price Worksheet is selected.
+
+- AppSource App - Extra filtering was added to the routine where the next billing period and invoice dates are rolled forward on a Contract when the generated Invoice is posted. 
+
+- AppSource App - A new Query API was created for Contract Lines that includes Contract Header Customer, Contract Header Currency and Contract Header Status.
+
+#### Bug Fixes
+
+- AppSource App - A fix was made to the Sales Header Document No and Invoice No stamping logic for activity and manual lines. The stamping logic was enhanced and clean up routines to handle deletion of a generated invoice (posted or unposted) created from activity lines was reworked. 
+
 ### 7.1.5
 
 #### Enhancements
@@ -1149,6 +1167,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
