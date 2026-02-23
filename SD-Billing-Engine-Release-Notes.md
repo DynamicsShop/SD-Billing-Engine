@@ -1,5 +1,21 @@
 ## SD Billing Engine Releases
 
+### 8.0.0
+
+#### Enhancements
+
+- AppSource App - Two new fields Renewal Date (Date) & Contract Term (Date Formula) were added to the Contract Header table.
+
+- AppSource App - The Renewal Date & Contract Term were surfaced on the Billing Engine Contract Header and List pages.
+
+- AppSource App - The Contract Header API was updated to add the new fields Anniversary Date & Contract Term.
+
+- AppSource App - Functionality was added to the Suggest Billing calculation to recalculate and update the Renewal Date on a Contract when the Renewal Date is less than or equal to the WorkDate. The new Renewal Date is set to the current Renewal Date plus the DateFormula in the Contract Term.
+
+- AppSource App - Functionality was added to insert and refresh the Anniversary Date and Contract Term onto the Contract Lines. Two new Tables, Text Template Header and Text Template Lines, with associated pages and logic were created. 
+
+- AppSource App - A change was made to prevent deletion of contracts if if Invoices have been posted against the Contract or if unposted Sales Orders or Invoices have been generated for the Contract. A new Boolean field, Disable Contract Deletion was added to the SD Billing Engine Setup Card.
+
 ### 7.1.6
 
 #### Enhancements
@@ -1167,6 +1183,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
