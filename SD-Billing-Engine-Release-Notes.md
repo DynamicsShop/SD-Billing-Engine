@@ -14,7 +14,7 @@
 
 - AppSource App - Functionality was added to insert and refresh the Anniversary Date and Contract Term onto the Contract Lines. Two new Tables, Text Template Header and Text Template Lines, with associated pages and logic were created. 
 
-- AppSource App - A change was made to prevent deletion of contracts if if Invoices have been posted against the Contract or if unposted Sales Orders or Invoices have been generated for the Contract. A new Boolean field, Disable Contract Deletion was added to the SD Billing Engine Setup Card.
+- AppSource App - A change was made to prevent deletion of contracts if Invoices have been posted against the Contract or if unposted Sales Orders or Invoices have been generated for the Contract. A new Boolean field, Disable Contract Deletion was added to the SD Billing Engine Setup Card.
 
 ### 7.1.6
 
@@ -1183,6 +1183,7 @@
 - Renamed SD Billing Engine Pages.
 
 - Changed the URL displayed on the About page.
+
 
 
 
