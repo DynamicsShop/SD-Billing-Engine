@@ -1,5 +1,19 @@
 ## SD Billing Engine Releases
 
+### 8.0.1
+
+#### Enhancements
+
+- AppSource App - The Invoice No rather than the Project No is now stamped on the Project Ledger Entries.
+
+- AppSource App - The error message raised on Meter Read Validate if an Item on the Contract is Blocked was updated.
+
+#### Bug Fixes
+
+- AppSource App - A change was made to prevent triggering of the minimum charge calculation if the amount on the line is a minus amount.
+
+- AppSource App - Comments entered on a contract were appearing after each invoice line when the invoices were generated. This was fixed.
+
 ### 8.0.0
 
 #### Enhancements
