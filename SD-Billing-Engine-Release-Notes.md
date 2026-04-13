@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 8.0.2
+
+#### Bug Fixes
+
+- AppSource App - The logic in archiving meter reads has been enhanced with updated logic.
+
 ### 8.0.1
 
 #### Enhancements
