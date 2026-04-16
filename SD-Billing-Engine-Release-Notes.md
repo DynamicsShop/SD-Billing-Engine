@@ -1,5 +1,11 @@
 ## SD Billing Engine Releases
 
+### 8.0.3
+
+#### Enhancements
+
+- AppSource App - A change was made to pass in the unit price without VAT when the Sales Lines are inserted into the Job Journal Line on posting of an Invoice whose Contract is linked to a Project.
+
 ### 8.0.2
 
 #### Bug Fixes
