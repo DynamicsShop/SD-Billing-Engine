@@ -1,5 +1,19 @@
 ## SD Billing Engine Releases
 
+### 8.0.4
+
+#### Enhancements
+
+- The SDY Billing Period on the Sales Header was made editable at table level.
+
+- The link in the View Our Apps action on the Setup Card was updated.
+
+- The Manage Subscriptions Page, accessed from the Setup Card, was updated.
+
+#### Bug Fixes
+
+- A change was made to fix an issue where not all comment lines on a contract were brought through to the generated invoice.
+
 ### 8.0.3
 
 #### Enhancements
