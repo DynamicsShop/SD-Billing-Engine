@@ -1,5 +1,15 @@
 ## SD Billing Engine Releases
 
+### 8.0.5
+
+#### Enhancements
+
+- A new field was added to the Contract Header to stamp the Last Invoice Posting Date.
+
+#### Bug Fixes
+
+- The Last Invoice No on the Contract Header was stamping a blank value. This was fixed and the last Posted Invoice No. posted for the Contract is now being stamped on the Contract Header.
+
 ### 8.0.4
 
 #### Enhancements
