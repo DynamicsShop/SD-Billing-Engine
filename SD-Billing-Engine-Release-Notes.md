@@ -1,5 +1,23 @@
 ## SD Billing Engine Releases
 
+### 9.0.0
+
+#### Enhancements
+
+- Added Contract Billing History functionality to track historical contract invoice values. A new Contract History page was introduced to display the last six invoice values for each contract. Additionally, API page 43006419 - SDY UB API Billing History was created to expose contract billing history data for reporting and analysis in Power BI.
+
+- Added support for Price Protection Dates on contract lines. Pending price changes are held until the Price Protected Until date has passed. Price protection is evaluated against the current contract billing period end date. Once the billing period moves beyond the Price Protected Until date the pending price change is automatically applied, the contract line is updated and the corresponding pending price change record is sent to history.
+
+- Introduced a Contract Audit Log to capture a snapshot of every contract change, providing a complete audit trail of changes. Contract Modification Log entries are retained for three months by default. This retention period can be adjusted using the Delete Contract Audit After field on the SD Billing Engine Setup page.
+
+- Telemetry was added to log when a Sales Order or Sales Invoice created by SD Billing Engine is posted.
+
+- An update was made to the message displayed on the Activation page on initial installation of the App.
+
+#### Bug Fixes
+
+- Fixed a rounding issue affecting unit price calculations for VAT-inclusive sales lines when posting to Project Ledger Entries.
+
 ### 8.0.5
 
 #### Enhancements
